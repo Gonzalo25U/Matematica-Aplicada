@@ -30,5 +30,5 @@ Megabits()
 print("Listado de datos transmitidos (en Megabits) desde 0 hasta 1.000 segundos:")
 print("-" * 150)
 for i in range(0, 1001, 100):
-    datos = 100 * i  # Calcular los megabits para cada tiempo
+    datos = 100 * i
     print(f"Tiempo: {i} segundos - Datos transmitidos: {datos} Megabits")
